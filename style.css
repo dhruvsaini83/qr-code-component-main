@@ -41,19 +41,29 @@ body {
     color: var(--clr-slate-500);
     line-height: 1.5;
     background: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* 
+
 .newsletter-cta {
     margin: auto;
-    padding: auto;
+    width: fit-content;
 
-} */
+}
 
 .newsletter-cta .card {
     background: #ffffff;
     border-radius: 15px;
-    width: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.card .card_content {
+    width: 235px;
 }
 
 .card picture img {
@@ -61,4 +71,9 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.card .card_content h3 {
+    display: flex;
+    text-align: center;
 }
