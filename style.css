@@ -36,12 +36,11 @@
 
 body {
     font-family: var(--ff-base);
-    font-size: var(--fs-normal);
     font-weight: var(--fw-regular);
     color: var(--clr-slate-500);
     line-height: 1.5;
     /* height: 1svh; */
-    font-size: 15px;
+    font-size: var(--fs-normal);
     background: #d5e1ef;
     display: flex;
     justify-content: center;
@@ -62,7 +61,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 15px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .card .card_content {
@@ -84,6 +83,7 @@ body {
     margin: 15px 0 15px 0;
     text-align: center;
     width: 235px;
+    font-weight: var(--fw-semibold);
 }
 
 .card .card_content p {
