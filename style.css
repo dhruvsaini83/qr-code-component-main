@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Outfit';
+    src:
+        local('Outfit Regular'),
+        url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src:
+        local('Outfit Bold'),
+        url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+    font-weight: 700;
+}
+
+:root {
+    --clr-slate-300: hsl(212, 45%, 89%);
+    --clr-slate-500: hsl(216, 15%, 48%);
+    --clr-slate-900: hsl(218, 44%, 22%);
+
+    --ff-base: Outfit, sans-serif;
+
+    --fs-normal: 15px;
+
+    --fw-regular: 400;
+    --fw-semibold: 700;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* font-family: var(--ff-base); */
+}
+
+body {
+    font-family: var(--ff-base);
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-regular);
+    color: var(--clr-slate-500);
+    line-height: 1.5;
+    background: #d5e1ef;
+}
+
+/* 
+.newsletter-cta {
+    margin: auto;
+    padding: auto;
+
+} */
+
+.newsletter-cta .card {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 270px;
+}
+
+.card picture img {
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
